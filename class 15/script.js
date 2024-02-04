@@ -82,7 +82,13 @@ console.log(typeof color);
 
 function myFunction(userName, age) {
   // Task TO be performed
-  return "My Name is: " + userName + " and i am " + age + " years old";
+  //   if ((age = 10)) {
+  //     return "My Name is: " + userName + " and i am " + age + " years old";
+  //   }
+  if ((age = 10)) {
+    console.log("My Name is: " + userName + " and i am " + age + " years old");
+  }
+  return "Nothing to see here";
 }
 // void (Function that doesnt have a return value)
 
